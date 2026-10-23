@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Stranica</title>
+  </head>
+  <body>
+    <p id="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+      exercitationem repellendus optio labore dolorem repudiandae?
+    </p>
+    <button id="btn">Click Me</button>
+    <script>
+      const text = document.getElementById("text");
+      const btn = document.getElementById("btn");
+
+      let count = 0;
+
+      function changeColor() {
+        count++;
+        if (count == 1) {
+          text.style.color = "red";
+          return;
+        }
+
+        if (count == 2) {
+          text.style.color = "green";
+          return;
+        }
+
+        if (count == 3) {
+          text.style.color = "blue";
+          return;
+        }
+
+        text.style.color = "black";
+        count = 0;
+      }
+
+      btn.addEventListener("click", changeColor);
+    </script>
+  </body>
+</html>
