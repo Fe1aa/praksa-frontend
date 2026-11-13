@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg bg-light-navy" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-3" href="#">
+            <img
+              src="img/Logo.png"
+              alt="Logo"
+              class="logo"
+              width="50"
+              height="50"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link nav-link-blue ms-3" href="#header">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-blue ms-3" href="#about-me"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-blue ms-3" href="#projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link-blue ms-3" href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <canvas id="canvas"></canvas>
+      <div class="header-box text-center">
+        <h1 class="h1 displ text-centeray-4">
+          Hello, I'm <span>Emir Felić</span>
+        </h1>
+        <h2 class="h2 displ text-centeray-4 mt-2">
+          I'm a computer science student
+        </h2>
+        <a href="#projects"
+          ><button class="mt-4 cta">View my projects</button></a
+        >
+      </div>
+    </header>
+    <div class="divider"></div>
+    <main>
+      <section id="about-me" class="container my-4">
+        <h2 class="h2 text-center">About me</h2>
+        <div class="row my-4">
+          <div class="col-md-6 p-4 text-center">
+            <img
+              src="img/Logo.png"
+              alt="My logo"
+              class="my-img rounded-circle"
+            />
+            <p class="mt-4 text">
+              Hello, my name is Emir Felić and I go to "Mješovita
+              elektrotehnička i droprerađivačka srednja škola Bihać". I'm an
+              aspiring programmer and like to learn about all types of
+              programming. I worked on many projects before using programming
+              languages like python, c++, java, html, css, js etc. I went on
+              many programming competitions and earned a few good placements.
+              Can't wait to see what future brings.
+            </p>
+          </div>
+
+          <div class="col-md-6">
+            <div class="row g-2 justify-content-center">
+              <div class="col-4">
+                <div class="pl text-center p-2">
+                  <img src="img/html.png" alt="JS" class="mb-1" />
+                  <p class="text">HTML</p>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="pl text-center p-2">
+                  <img src="img/CSS.png" alt="JS" class="mb-1" />
+                  <p class="text">CSS</p>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="pl text-center p-2">
+                  <img src="img/js.png" alt="JS" class="mb-1" />
+                  <p class="text">Javascript</p>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="pl text-center p-2">
+                  <img src="img/php.png" alt="JS" class="mb-1" />
+                  <p class="text">PHP</p>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="pl text-center p-2">
+                  <img src="img/python.png" alt="JS" class="mb-1" />
+                  <p class="text">Python</p>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="pl text-center p-2">
+                  <img src="img/Java.png" alt="JS" class="mb-1" />
+                  <p class="text">Java</p>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="pl text-center p-2">
+                  <img src="img/c.png" alt="JS" class="mb-1" />
+                  <p class="text">C++</p>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="pl text-center p-2">
+                  <img src="img/c-sharp.png" alt="JS" class="mb-1" />
+                  <p class="text">C#</p>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="pl text-center p-2">
+                  <img src="img/git.png" alt="JS" class="mb-1" />
+                  <p class="text">GIT</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <section id="projects" class="container my-5">
+        <div class="text-center">
+          <h2 class="section-title">Projects</h2>
+          <p class="section-subtitle">This is some stuff I built</p>
+        </div>
+        <div class="row g-4 mt-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+              <img
+                src="img/Tetris.png"
+                alt="Screenshot of my project"
+                class="project-img"
+              />
+
+              <div class="project-content">
+                <h3>Tetris</h3>
+
+                <p>
+                  A simple game of tetris made in python. It has blocks, grids,
+                  scoring and death.
+                </p>
+
+                <div class="project-tech">
+                  <span>Python</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/Fe1aa/Python-Projects"
+                    class="btn-project secondary"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+              <img
+                src="img/chess.png"
+                alt="Screenshot of my project"
+                class="project-img"
+              />
+
+              <div class="project-content">
+                <h3>Chess</h3>
+
+                <p>
+                  Another game made in python, this time chess. It has all the
+                  chess essentials.
+                </p>
+
+                <div class="project-tech">
+                  <span>Python</span>
+                </div>
+
+                <div class="project-links">
+                  <a href="#" class="btn-project secondary">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+              <img
+                src="img/pc_part_picker.png"
+                alt="Screenshot of my project"
+                class="project-img"
+              />
+
+              <div class="project-content">
+                <h3>PC part picker</h3>
+
+                <p>
+                  This website was made for a final project for Digital School
+                  course. You can look at how pretty it is.
+                </p>
+
+                <div class="project-tech">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Javascript</span>
+                  <span>Firebase</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/Fe1aa/Grupni-Projekat"
+                    class="btn-project secondary"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+              <img
+                src="img/this_website.png"
+                alt="Screenshot of my project"
+                class="project-img"
+              />
+
+              <div class="project-content">
+                <h3>This website</h3>
+
+                <p>
+                  That's right folks, I made this website it was really hard.
+                </p>
+
+                <div class="project-tech">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>Javascript</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/Fe1aa/Web-Programiranje-Projekat"
+                    class="btn-project secondary"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+              <img
+                src="img/veinminer.jpg"
+                alt="Screenshot of my project"
+                class="project-img"
+              />
+
+              <div class="project-content">
+                <h3>Veinminer</h3>
+
+                <p>
+                  This is a minecraft plugin that allows you to mine a whole
+                  vein of ores at once. It's very versitile.
+                </p>
+
+                <div class="project-tech">
+                  <span>Java</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/Fe1aa/Veinminer-Mod"
+                    class="btn-project secondary"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card">
+              <img
+                src="img/physics_engine.png"
+                alt="Screenshot of my project"
+                class="project-img"
+              />
+
+              <div class="project-content">
+                <h3>Physics engine</h3>
+
+                <p>
+                  A custom 2D physics engine built from scratch in C++ using
+                  SDL2 for rendering. I went through a lot of trial and error to
+                  make this.
+                </p>
+
+                <div class="project-tech">
+                  <span>C++</span>
+                  <span>SDL2</span>
+                </div>
+
+                <div class="project-links">
+                  <a
+                    href="https://github.com/Fe1aa/Physics-Engine"
+                    class="btn-project secondary"
+                    >GitHub</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="divider"></div>
+      <section id="contact" class="container my-5">
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <div class="text-center">
+              <h2 class="h2 md-3">Contact Me</h2>
+            </div>
+            <form action="#" method="post">
+              <div class="mb-3">
+                <label for="ime_prezime" class="form-label"
+                  >Enter your name and surname</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="ime_prezime"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email_adresa" class="form-label"
+                  >Enter your email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email-adresa"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="datum-rodjena" class="form-label"
+                  >Enter your date of birth</label
+                >
+                <input
+                  type="date"
+                  class="form-control"
+                  id="datum-rodjena"
+                  aria-describedby="emailHelp"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="grad" class="form-label"
+                  >Select the city you were born in</label
+                >
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Open this select menu</option>
+                  <option value="1">Bihać</option>
+                  <option value="2">Cazin</option>
+                  <option value="3">Bogotá</option>
+                </select>
+              </div>
+              <button type="submit" class="cta my-3">Submit</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 footer-text">© 2025 Company, Inc</p>
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          aria-label="Bootstrap"
+        >
+          <img src="img/Logo.png" alt="My logo" class="bi me-2 footer-logo" />
+        </a>
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 footer-text">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 footer-text">Features</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 footer-text">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 footer-text">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 footer-text">About</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
